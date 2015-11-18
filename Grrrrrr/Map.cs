@@ -10,9 +10,21 @@ namespace Grrrrrr
         public Map()
         {
             Entities = new List<Entity>();
-            AddWalls();
-            AddDoors();
-            AddItems();
+            LoadMap(false);
+        }
+
+        private void LoadMap(bool danielHasCreatedMapFromJson)
+        {
+            if(danielHasCreatedMapFromJson)
+            {
+                //Populate Entities from json file
+            }
+            else
+            {
+                AddWalls();
+                AddDoors();
+                AddItems();
+            }
         }
 
         private void AddItems()
