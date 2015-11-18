@@ -6,7 +6,7 @@ namespace Grrrrrr
     {
         public int HitPoints { get; set; }
 
-        public void Move(int X, int Y, Map map)
+        public virtual void Move(int X, int Y, Map map)
         {
             if(!(map.Entities.FirstOrDefault(x => x.PositionX == PositionX + X && x.PositionY == PositionY + Y && x.Intersectable == false) != null))
             {

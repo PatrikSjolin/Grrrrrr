@@ -42,7 +42,7 @@ namespace Grrrrrr
             {
                 PositionX = 11,
                 PositionY = 9,
-                Locked = false
+                Locked = true
             });
         }
 
