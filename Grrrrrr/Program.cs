@@ -21,7 +21,7 @@ namespace Grrrrrr
             {
                 renderer.Entities = new List<Entity>();
                 renderer.Entities.Add(player);
-                renderer.Entities.AddRange(map.Walls);
+                renderer.Entities.AddRange(map.Entities);
                 renderer.RenderScene();
 
                 while ((keyInfo = Console.ReadKey(true)).Key != ConsoleKey.Escape)

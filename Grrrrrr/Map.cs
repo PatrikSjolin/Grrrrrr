@@ -1,18 +1,42 @@
-﻿using System;
+﻿using Grrrrrr.Items;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Grrrrrr
 {
     public class Map
     {
-        public List<Wall> Walls { get; set; }
+        public List<Entity> Entities { get; set; }
 
         public Map()
         {
-            Walls = new List<Wall>
+            Entities = new List<Entity>();
+            AddWalls();
+            AddDoors();
+            AddItems();
+        }
+
+        private void AddItems()
+        {
+            Entities.Add(new Key
+            {
+                PositionX = 6,
+                PositionY = 5
+            });
+        }
+
+        private void AddDoors()
+        {
+            Entities.Add(new Door
+            {
+                PositionX = 11,
+                PositionY = 9,
+                Locked = false
+            });
+        }
+
+        private void AddWalls()
+        {
+            Entities = new List<Entity>
             {
                 new Wall
                 {
@@ -117,7 +141,7 @@ namespace Grrrrrr
                     PositionX = 11,
                     PositionY = 2
                 },
-                
+
 
 
                 new Wall

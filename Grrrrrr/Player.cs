@@ -10,6 +10,8 @@ namespace Grrrrrr
     {
         public int HitPoints { get; set; }
 
+        public List<Item> Inventory { get; set; }
+
         public Player()
         {
             Color = ConsoleColor.Green;

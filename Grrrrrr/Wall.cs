@@ -11,6 +11,7 @@ namespace Grrrrrr
         public Wall()
         {
             Color = ConsoleColor.Red;
+            Intersectable = false;
         }
     }
 }
