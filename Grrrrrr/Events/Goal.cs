@@ -7,6 +7,7 @@ namespace Grrrrrr.Events
         public Goal()
         {
             Color = ConsoleColor.White;
+            Intersectable = true;
         }
     }
 }

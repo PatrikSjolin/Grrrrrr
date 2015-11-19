@@ -7,6 +7,8 @@ namespace Grrrrrr
     {
         public List<Entity> Entities { get; set; }
 
+        public string Interface { get; set; }
+
         public void RenderScene()
         {
             Console.Clear();
@@ -16,6 +18,8 @@ namespace Grrrrrr
                 Console.ForegroundColor = entity.Color;
                 Console.Write("@");
             }
+
+            Console.Write(Interface);
         }
     }
 }

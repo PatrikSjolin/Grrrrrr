@@ -1,11 +1,15 @@
-﻿using Grrrrrr.Items;
+﻿using Grrrrrr.Events;
+using Grrrrrr.Items;
 using System.Collections.Generic;
 
 namespace Grrrrrr
 {
     public class Map
     {
+        public string Interface { get; set; }
         public List<Entity> Entities { get; set; }
+        public int PlayerStartX { get; set; }
+        public int PlayerStartY { get; set; }
 
         public Map()
         {
@@ -24,6 +28,13 @@ namespace Grrrrrr
                 AddWalls();
                 AddDoors();
                 AddItems();
+                PlayerStartX = 9;
+                PlayerStartY = 9;
+                Entities.Add(new Goal()
+                {
+                    PositionX = 14,
+                    PositionY = 9
+                });
             }
         }
 
@@ -233,6 +244,29 @@ namespace Grrrrrr
                     PositionY = 12
                 },
 
+                new Wall
+                {
+                    PositionX = 12,
+                    PositionY = 8
+                },
+
+                new Wall
+                {
+                    PositionX = 13,
+                    PositionY = 8
+                },
+
+                new Wall
+                {
+                    PositionX = 13,
+                    PositionY = 10
+                },
+
+                new Wall
+                {
+                    PositionX = 12,
+                    PositionY = 10
+                }
             };
         }
     }
