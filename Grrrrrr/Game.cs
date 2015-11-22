@@ -5,14 +5,10 @@ using System.Runtime.InteropServices;
 
 namespace Grrrrrr
 {
-    public class Game
+    public class Game : IGameState
     {
         private readonly Renderer renderer;
         private readonly Map map;
-
-
-        [DllImport("user32.dll")]
-        public static extern bool ShowWindow(System.IntPtr hWnd, int cmdShow);
 
         public Game()
         {
@@ -21,9 +17,6 @@ namespace Grrrrrr
             map = new Map();
 
             Console.CursorVisible = false;
-
-            Process p = Process.GetCurrentProcess();
-            ShowWindow(p.MainWindowHandle, 3);
         }
 
         public void Start()
