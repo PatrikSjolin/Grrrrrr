@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
+using System.Runtime.InteropServices;
 
 namespace Grrrrrr
 {
@@ -8,6 +10,10 @@ namespace Grrrrrr
         private readonly Renderer renderer;
         private readonly Map map;
 
+
+        [DllImport("user32.dll")]
+        public static extern bool ShowWindow(System.IntPtr hWnd, int cmdShow);
+
         public Game()
         {
             renderer = new Renderer();
@@ -15,6 +21,9 @@ namespace Grrrrrr
             map = new Map();
 
             Console.CursorVisible = false;
+
+            Process p = Process.GetCurrentProcess();
+            ShowWindow(p.MainWindowHandle, 3);
         }
 
         public void Start()
@@ -28,9 +37,6 @@ namespace Grrrrrr
             while (true)
             {
                 ConsoleKeyInfo keyInfo;
-
-                //player.PositionY = player.PositionY;
-                //player.PositionX = player.PositionX;
 
                 renderer.CameraX = player.PositionX;
                 renderer.CameraY = player.PositionY;
