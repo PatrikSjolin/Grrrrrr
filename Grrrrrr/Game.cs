@@ -21,13 +21,19 @@ namespace Grrrrrr
         {
             Unit player = new Player
             {
-                PositionY = map.PlayerStartX,
-                PositionX = map.PlayerStartY
+                PositionY = map.PlayerStartY,
+                PositionX = map.PlayerStartX
             };
 
             while (true)
             {
                 ConsoleKeyInfo keyInfo;
+
+                //player.PositionY = player.PositionY;
+                //player.PositionX = player.PositionX;
+
+                renderer.CameraX = player.PositionX;
+                renderer.CameraY = player.PositionY;
 
                 renderer.Entities.Clear();
                 renderer.Entities.Add(player);

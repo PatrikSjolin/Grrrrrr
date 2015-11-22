@@ -9,12 +9,22 @@ namespace Grrrrrr
 
         public string Interface { get; set; }
 
+        public int CameraX { get; set; }
+        public int CameraY { get; set; }
+
         public void RenderScene()
         {
             Console.Clear();
+
+            int width = Console.WindowWidth / 2;
+            int height = Console.WindowHeight / 2;            
+
             foreach(Entity entity in Entities)
             {
-                Console.SetCursorPosition(entity.PositionX, entity.PositionY);
+                if(entity is Player)
+                    Console.SetCursorPosition(entity.PositionX + width - CameraX, entity.PositionY + height - CameraY);
+                else
+                    Console.SetCursorPosition(entity.PositionX + width - CameraX, entity.PositionY + height - CameraY);
                 Console.ForegroundColor = entity.Color;
                 Console.Write("@");
             }

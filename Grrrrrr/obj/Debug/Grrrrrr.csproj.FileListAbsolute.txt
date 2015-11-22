@@ -1,0 +1,5 @@
+C:\Users\Drakefruit\Documents\GitHub\Grrrrrr\Grrrrrr\bin\Debug\Grrrrrr.exe.config
+C:\Users\Drakefruit\Documents\GitHub\Grrrrrr\Grrrrrr\bin\Debug\Grrrrrr.exe
+C:\Users\Drakefruit\Documents\GitHub\Grrrrrr\Grrrrrr\bin\Debug\Grrrrrr.pdb
+C:\Users\Drakefruit\Documents\GitHub\Grrrrrr\Grrrrrr\obj\Debug\Grrrrrr.exe
+C:\Users\Drakefruit\Documents\GitHub\Grrrrrr\Grrrrrr\obj\Debug\Grrrrrr.pdb
