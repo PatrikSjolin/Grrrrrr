@@ -4,7 +4,9 @@
     {
         public Key()
         {
+            Mesh = "@";
             Color = System.ConsoleColor.Cyan;
+            Intersectable = true;
         }
     }
 }

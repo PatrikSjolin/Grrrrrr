@@ -8,6 +8,7 @@ namespace Grrrrrr
 
         public Door()
         {
+            Mesh = "@";
             Color = ConsoleColor.Yellow;
             Intersectable = true;
         }

@@ -15,8 +15,6 @@ namespace Grrrrrr
             renderer = new Renderer();
             renderer.Entities = new List<Entity>();
             map = new Map();
-
-            Console.CursorVisible = false;
         }
 
         public void Start()

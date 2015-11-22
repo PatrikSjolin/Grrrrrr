@@ -1,1 +1,8 @@
 C:\Users\Drakefruit\Documents\GitHub\Grrrrrr\Editor\bin\Debug\Editor.exe.config
+C:\Users\Drakefruit\Documents\GitHub\Grrrrrr\Editor\bin\Debug\Editor.exe
+C:\Users\Drakefruit\Documents\GitHub\Grrrrrr\Editor\bin\Debug\Editor.pdb
+C:\Users\Drakefruit\Documents\GitHub\Grrrrrr\Editor\obj\Debug\Editor.csprojResolveAssemblyReference.cache
+C:\Users\Drakefruit\Documents\GitHub\Grrrrrr\Editor\obj\Debug\Editor.Properties.Resources.resources
+C:\Users\Drakefruit\Documents\GitHub\Grrrrrr\Editor\obj\Debug\Editor.csproj.GenerateResource.Cache
+C:\Users\Drakefruit\Documents\GitHub\Grrrrrr\Editor\obj\Debug\Editor.exe
+C:\Users\Drakefruit\Documents\GitHub\Grrrrrr\Editor\obj\Debug\Editor.pdb

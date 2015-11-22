@@ -24,7 +24,7 @@ namespace Grrrrrr
             {
                 Console.SetCursorPosition(entity.PositionX + width - CameraX, entity.PositionY + height - CameraY);
                 Console.ForegroundColor = entity.Color;
-                Console.Write("@");
+                Console.Write(entity.Mesh);
             }
 
             Console.Write(Interface);

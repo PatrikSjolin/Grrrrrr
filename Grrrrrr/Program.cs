@@ -1,4 +1,5 @@
-﻿using System.Diagnostics;
+﻿using System;
+using System.Diagnostics;
 using System.Runtime.InteropServices;
 
 namespace Grrrrrr
@@ -10,6 +11,8 @@ namespace Grrrrrr
 
         static void Main(string[] args)
         {
+            Console.CursorVisible = false;
+            Console.Title = "Grrrrrr";
             Process p = Process.GetCurrentProcess();
             ShowWindow(p.MainWindowHandle, 3);
 

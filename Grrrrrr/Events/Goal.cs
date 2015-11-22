@@ -6,6 +6,7 @@ namespace Grrrrrr.Events
     {
         public Goal()
         {
+            Mesh = "@";
             Color = ConsoleColor.White;
             Intersectable = true;
         }
