@@ -37,7 +37,7 @@ namespace Grrrrrr
                 }
                 else
                 {
-                    System.Media.SoundPlayer player = new System.Media.SoundPlayer(@"C:\Users\Drakefruit\Documents\GitHub\Grrrrrr\Grrrrrr\Content\Sound\LockedDoor.wav");
+                    System.Media.SoundPlayer player = new System.Media.SoundPlayer(Environment.CurrentDirectory + @"\..\..\Content\Sound\LockedDoor.wav");
                     player.Play();
                     return;
                 }
@@ -45,7 +45,7 @@ namespace Grrrrrr
             Item item;
             if((item = (Item)map.Entities.FirstOrDefault(x => x is Item && x.PositionX == PositionX + X && x.PositionY == PositionY + Y)) != null)
             {
-                System.Media.SoundPlayer player = new System.Media.SoundPlayer(@"C:\Users\Drakefruit\Documents\GitHub\Grrrrrr\Grrrrrr\Content\Sound\PickupKeys.wav");
+                System.Media.SoundPlayer player = new System.Media.SoundPlayer(Environment.CurrentDirectory + @"\..\..\Content\Sound\PickupKeys.wav");
                 player.Play();
                 Inventory.Add(item);
                 map.Entities.Remove(item);
