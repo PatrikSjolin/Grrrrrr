@@ -9,3 +9,10 @@ C:\Users\A492386\Documents\GitHub\Grrrrrr\Grrrrrr\bin\Debug\Grrrrrr.pdb
 C:\Users\A492386\Documents\GitHub\Grrrrrr\Grrrrrr\obj\Debug\Grrrrrr.csprojResolveAssemblyReference.cache
 C:\Users\A492386\Documents\GitHub\Grrrrrr\Grrrrrr\obj\Debug\Grrrrrr.exe
 C:\Users\A492386\Documents\GitHub\Grrrrrr\Grrrrrr\obj\Debug\Grrrrrr.pdb
+C:\Users\Patrik\Documents\GitHub\Wordgame\Grrrrrr\Grrrrrr\bin\Debug\Grrrrrr.exe.config
+C:\Users\Patrik\Documents\GitHub\Wordgame\Grrrrrr\Grrrrrr\bin\Debug\Grrrrrr.exe
+C:\Users\Patrik\Documents\GitHub\Wordgame\Grrrrrr\Grrrrrr\bin\Debug\Grrrrrr.pdb
+C:\Users\Patrik\Documents\GitHub\Wordgame\Grrrrrr\Grrrrrr\obj\Debug\Grrrrrr.csproj.AssemblyReference.cache
+C:\Users\Patrik\Documents\GitHub\Wordgame\Grrrrrr\Grrrrrr\obj\Debug\Grrrrrr.csproj.CoreCompileInputs.cache
+C:\Users\Patrik\Documents\GitHub\Wordgame\Grrrrrr\Grrrrrr\obj\Debug\Grrrrrr.exe
+C:\Users\Patrik\Documents\GitHub\Wordgame\Grrrrrr\Grrrrrr\obj\Debug\Grrrrrr.pdb
